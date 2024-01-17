@@ -1,0 +1,132 @@
+/* Define o estilo do corpo do documento */
+body {
+    /* Define a imagem de fundo */
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    /* Define a fonte */
+    font-family: sans-serif;
+    /* Adiciona padding */
+    padding: 20px;
+}
+
+/* Define o estilo dos elementos h1 */
+h1 {
+    /* Define o tamanho da fonte */
+    font-size: 40px;
+    /* Remove o margem superior */
+    margin-top: 0;
+    /* Adiciona margem inferior */
+    margin-bottom: 15px;
+}
+
+/* Define o estilo dos elementos h2 */
+h2 {
+    /* Define o tamanho da fonte */
+    font-size: 30px;
+}
+
+/* Define o estilo dos elementos com a classe 'established' */
+.established {
+    /* Define o estilo da fonte */
+    font-style: italic;
+}
+
+/* Centraliza o texto dos elementos h1, h2 e p */
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+/* Define o estilo dos elementos com a classe 'menu' */
+.menu {
+    /* Define a largura */
+    width: 80%;
+    /* Define a cor de fundo */
+    background-color: burlywood;
+    /* Centraliza o menu */
+    margin-left: auto;
+    margin-right: auto;
+    /* Adiciona padding */
+    padding: 20px;
+    /* Define a largura máxima */
+    max-width: 500px;
+}
+
+/* Centraliza a imagem */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Define o estilo da linha horizontal */
+hr {
+    /* Define a altura */
+    height: 2px;
+    /* Define a cor */
+    background-color: brown;
+    border-color: brown;
+}
+
+/* Adiciona margem superior */
+.bottom-line {
+    margin-top: 25px;
+}
+
+/* Define a fonte dos elementos h1 e h2 */
+h1,
+h2 {
+    font-family: Impact, serif;
+}
+
+/* Define o estilo dos elementos p dentro da classe 'item' */
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+/* Define o alinhamento e a largura dos elementos com as classes 'flavor' e 'dessert' */
+.flavor,
+.dessert {
+    text-align: left;
+    width: 75%;
+}
+
+/* Define o alinhamento e a largura dos elementos com a classe 'price' */
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+/* Define o estilo do rodapé */
+footer {
+    /* Define o tamanho da fonte */
+    font-size: 14px;
+}
+
+/* Adiciona margem inferior */
+.address {
+    margin-bottom: 5px;
+}
+
+/* Define a cor dos links */
+a {
+    color: black;
+}
+
+/* Define a cor dos links visitados */
+a:visited {
+    color: black;
+}
+
+/* Define a cor dos links quando o mouse passa sobre eles */
+a:hover {
+    color: brown;
+}
+
+/* Define a cor dos links quando são clicados */
+a:active {
+    color: brown;
+}
