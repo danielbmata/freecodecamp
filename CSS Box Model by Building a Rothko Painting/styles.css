@@ -1,0 +1,62 @@
+/* Define o estilo para a classe .canvas */
+.canvas {
+    /* Define a largura do elemento */
+    width: 500px;
+    /* Define a altura do elemento */
+    height: 600px;
+    /* Define a cor de fundo do elemento */
+    background-color: #4d0f00;
+    /* Esconde qualquer conteúdo que ultrapasse os limites do elemento */
+    overflow: hidden;
+    /* Aplica um efeito de desfoque ao elemento */
+    filter: blur(2px);
+}
+
+/* Define o estilo para a classe .frame */
+.frame {
+    /* Define a borda do elemento */
+    border: 50px solid black;
+    /* Define a largura do elemento */
+    width: 500px;
+    /* Adiciona um padding interno ao elemento */
+    padding: 50px;
+    /* Centraliza o elemento horizontalmente e adiciona uma margem inferior */
+    margin: 20px auto;
+}
+
+/* Define o estilo para as classes .one e .two */
+.one,
+.two {
+    /* Define a largura do elemento */
+    width: 425px;
+    /* Define a altura do elemento */
+    height: 150px;
+    /* Define a cor de fundo do elemento */
+    background-color: #efb762;
+    /* Centraliza o elemento horizontalmente e adiciona uma margem superior e inferior */
+    margin: 20px auto;
+    /* Adiciona uma sombra ao elemento */
+    box-shadow: 0 0 3px 3px #efb762;
+    /* Define o raio das bordas do elemento */
+    border-radius: 9px;
+    /* Rotaciona o elemento em -0.6 graus */
+    transform: rotate(-0.6deg);
+}
+
+/* Define o estilo para a classe .three */
+.three {
+    /* Define a largura do elemento */
+    width: 91%;
+    /* Define a altura do elemento */
+    height: 28%;
+    /* Define a cor de fundo do elemento */
+    background-color: #b20403;
+    /* Centraliza o elemento horizontalmente */
+    margin: auto;
+    /* Aplica um efeito de desfoque ao elemento */
+    filter: blur(2px);
+    /* Adiciona uma sombra ao elemento */
+    box-shadow: 0 0 5px 5px #b20403;
+    /* Define o raio das bordas do elemento */
+    border-radius: 30px 25px 60px 12px;
+}
