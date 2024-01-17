@@ -1,0 +1,137 @@
+* {
+    /* Define o modelo de caixa para todos os elementos, incluindo padding e borda */
+    box-sizing: border-box;
+}
+
+html {
+    /* Define o tamanho da fonte base para todo o documento como 16px */
+    font-size: 16px;
+}
+
+body {
+    /* Define a fonte para ser 'Open Sans', se não disponível, será sans-serif */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.label {
+    /* Adiciona uma borda sólida de 2px */
+    border: 2px solid black;
+    /* Define a largura da label como 270px */
+    width: 270px;
+    /* Centraliza a label e adiciona uma margem de 20px na parte superior e inferior */
+    margin: 20px auto;
+    /* Adiciona um padding de 7px à esquerda e à direita */
+    padding: 0 7px;
+}
+
+header h1 {
+    /* Centraliza o texto */
+    text-align: center;
+    /* Remove a margem superior */
+    margin: -4px 0;
+    /* Adiciona um espaçamento entre letras de 0.15px */
+    letter-spacing: 0.15px
+}
+
+p {
+    /* Remove a margem */
+    margin: 0;
+    /* Define o layout para flexbox */
+    display: flex;
+    /* Distribui o espaço igualmente entre os itens */
+    justify-content: space-between;
+}
+
+.divider {
+    /* Adiciona uma borda inferior de 1px */
+    border-bottom: 1px solid #888989;
+    /* Adiciona uma margem de 2px na parte superior e inferior */
+    margin: 2px 0;
+}
+
+.bold {
+    /* Define o peso da fonte para 800 */
+    font-weight: 800;
+}
+
+.large {
+    /* Define a altura para 10px */
+    height: 10px;
+}
+
+.large,
+.medium {
+    /* Define a cor de fundo para preto */
+    background-color: black;
+    /* Remove a borda */
+    border: 0;
+}
+
+.medium {
+    /* Define a altura para 5px */
+    height: 5px;
+}
+
+.small-text {
+    /* Define o tamanho da fonte para 0.85rem */
+    font-size: 0.85rem;
+}
+
+.calories-info {
+    /* Define o layout para flexbox */
+    display: flex;
+    /* Distribui o espaço igualmente entre os itens */
+    justify-content: space-between;
+    /* Alinha os itens no final do eixo do container */
+    align-items: flex-end;
+}
+
+.calories-info h2 {
+    /* Remove a margem */
+    margin: 0;
+}
+
+.left-container p {
+    /* Define a margem para -5px na parte superior e -2px na parte esquerda */
+    margin: -5px -2px;
+    /* Define o tamanho da fonte para 2em */
+    font-size: 2em;
+    /* Define o peso da fonte para 700 */
+    font-weight: 700;
+}
+
+.calories-info span {
+    /* Define a margem para -7px na parte superior e -2px na parte esquerda */
+    margin: -7px -2px;
+    /* Define o tamanho da fonte para 2.4em */
+    font-size: 2.4em;
+    /* Define o peso da fonte para 700 */
+    font-weight: 700;
+}
+
+.right {
+    /* Alinha os itens ao final do eixo do container */
+    justify-content: flex-end;
+}
+
+.indent {
+    /* Adiciona uma margem à esquerda de 1em */
+    margin-left: 1em;
+}
+
+.double-indent {
+    /* Adiciona uma margem à esquerda de 2em */
+    margin-left: 2em;
+}
+
+.daily-value p:not(.no-divider) {
+    /* Adiciona uma borda inferior de 1px */
+    border-bottom: 1px solid #888989;
+}
+
+.note {
+    /* Define o tamanho da fonte para 0.6rem */
+    font-size: 0.6rem;
+    /* Adiciona uma margem de 5px na parte superior e inferior */
+    margin: 5px 0;
+}
