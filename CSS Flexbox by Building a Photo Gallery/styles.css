@@ -1,0 +1,69 @@
+* {
+    /* Define o modelo de caixa para todos os elementos, incluindo padding e borda */
+    box-sizing: border-box;
+}
+
+body {
+    /* Remove margens do corpo da página */
+    margin: 0;
+    /* Define a fonte para ser sans-serif */
+    font-family: sans-serif;
+    /* Define a cor de fundo para ser #f5f6f7 */
+    background: #f5f6f7;
+}
+
+.header {
+    /* Centraliza o texto */
+    text-align: center;
+    /* Transforma o texto para maiúsculas */
+    text-transform: uppercase;
+    /* Adiciona padding de 32px */
+    padding: 32px;
+    /* Define a cor de fundo para ser #0a0a23 */
+    background-color: #0a0a23;
+    /* Define a cor do texto para ser #fff */
+    color: #fff;
+    /* Adiciona uma borda inferior de 4px */
+    border-bottom: 4px solid #fdb347;
+}
+
+.gallery {
+    /* Define o layout para flexbox */
+    display: flex;
+    /* Define a direção dos itens para serem em linha */
+    flex-direction: row;
+    /* Permite que os itens sejam envolvidos para novas linhas */
+    flex-wrap: wrap;
+    /* Centraliza os itens horizontalmente */
+    justify-content: center;
+    /* Centraliza os itens verticalmente */
+    align-items: center;
+    /* Define um espaço de 16px entre os itens */
+    gap: 16px;
+    /* Define a largura máxima para ser 1400px */
+    max-width: 1400px;
+    /* Centraliza o container no meio da página */
+    margin: 0 auto;
+    /* Adiciona padding de 20px na parte superior e inferior e 10px nos lados */
+    padding: 20px 10px;
+}
+
+.gallery img {
+    /* Define a largura da imagem para ser 100% do elemento pai */
+    width: 100%;
+    /* Define a largura máxima da imagem para ser 350px */
+    max-width: 350px;
+    /* Define a altura da imagem para ser 300px */
+    height: 300px;
+    /* Ajusta a imagem para preencher completamente o elemento pai */
+    object-fit: cover;
+    /* Adiciona um raio de borda de 10px */
+    border-radius: 10px;
+}
+
+.gallery::after {
+    /* Cria um pseudo-elemento vazio após o gallery */
+    content: "";
+    /* Define a largura do pseudo-elemento para ser 350px */
+    width: 350px;
+}
