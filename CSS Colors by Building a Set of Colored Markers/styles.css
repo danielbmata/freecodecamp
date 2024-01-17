@@ -1,0 +1,54 @@
+/* Estilos para elementos h1 */
+h1 {
+ text-align: center; /* Alinha o texto do elemento h1 ao centro */
+}
+
+/* Estilos para a classe .container */
+.container {
+ background-color: rgb(255, 255, 255); /* Define a cor de fundo como branco */
+ padding: 10px 0; /* Adiciona um padding de 10px na parte superior e inferior do elemento */
+}
+
+/* Estilos para a classe .marker */
+.marker {
+ width: 200px; /* Define a largura do elemento */
+ height: 25px; /* Define a altura do elemento */
+ margin: 10px auto; /* Adiciona um margem de 10px na parte superior e inferior e centraliza o elemento horizontalmente */
+}
+
+/* Estilos para a classe .cap */
+.cap {
+ width: 60px; /* Define a largura do elemento */
+ height: 25px; /* Define a altura do elemento */
+}
+
+/* Estilos para a classe .sleeve */
+.sleeve {
+ width: 110px; /* Define a largura do elemento */
+ height: 25px; /* Define a altura do elemento */
+ background-color: rgba(255, 255, 255, 0.5); /* Define a cor de fundo como branco com 50% de opacidade */
+ border-left: 10px double rgba(0, 0, 0, 0.75); /* Adiciona uma borda à esquerda do elemento */
+}
+
+/* Estilos para as classes .cap e .sleeve */
+.cap, .sleeve {
+ display: inline-block; /* Define o tipo de exibição do elemento como inline-block */
+}
+
+/* Estilos para a classe .red */
+.red {
+ background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27)); /* Aplica um gradiente linear como plano de fundo */
+ box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8); /* Aplica uma sombra à caixa do elemento */
+}
+
+/* Estilos para a classe .green */
+.green {
+ background: linear-gradient(#55680D, #71F53E, #116C31); /* Aplica um gradiente linear como plano de fundo */
+ box-shadow: 0 0 20px 0 #3B7E20CC; /* Aplica uma sombra à caixa do elemento */
+}
+
+/* Estilos para a classe .blue */
+.blue {
+ background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%)); /* Aplica um gradiente linear como plano de fundo */
+ box-shadow: 0 0 20px 0 blue; /* Aplica uma sombra à caixa do elemento */
+}
